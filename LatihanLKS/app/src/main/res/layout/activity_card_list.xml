@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".card_list"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="120dp"/>
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txtdataName"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama"/>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:textSize="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RP. 17000"/>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_marginLeft="20dp"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:text="+"/>
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"/>
+            <Button
+                android:layout_marginLeft="5dp"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:text="-"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="97dp"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:paddingTop="18dp"
+        android:paddingRight="5dp">
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="* 4,5"/>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:drawableBottom="@drawable/ic_cart"/>
+
+    </LinearLayout>
+</LinearLayout>
